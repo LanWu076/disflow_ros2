@@ -207,10 +207,8 @@ Email: Lan.Wu@uwa.edu.au
 
 This repository contains a ROS2 version of DisFlow.
 
-The original DisFlow paper was developed and evaluated using a ROS1 implementation. After moving to a new institution, the first author no longer had access to the original ROS1 development machine. Rather than maintaining an outdated codebase, the project was migrated to ROS2.
+The original paper was developed using ROS1. Unfortunately, after moving to a new institution, I no longer have access to the original ROS1 machine, so I decided to migrate the project to ROS2 instead of maintaining the old codebase.
 
-At the moment, the ROS2 version has mainly been tested on the **Human Rotation** experiment presented in the paper. Some of the additional experiments, utilities, and configurations from the original ROS1 implementation have not yet been fully ported.
+At the moment, the ROS2 version has mainly been tested on the **Human Rotation** experiment presented in the paper. Some of the other experiments and utilities from the original ROS1 implementation have not yet been fully ported.
 
-If you are interested in reproducing other results from the paper (e.g. object tracking sequences, flying object examples, dataset evaluations, etc.), or if you need the original ROS1 code, rosbags, calibration files, or experiment configurations, please feel free to contact the author.
-
-Contributions, bug reports, and pull requests are always welcome.
+If you are interested in reproducing other results from the paper, need the original ROS1 code, rosbags, calibration files, or experiment configurations, feel free to send me an email and I will do my best to help.
