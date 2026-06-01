@@ -15,6 +15,12 @@ The core idea is to represent an object using Gaussian Process Distance Field (G
 
 ---
 
+## Demo Video
+
+[DisFlow Demo Video](media/disflow_demo.mp4)
+
+Click the image above to get the access to the demo video.
+
 ## Overview
 
 DisFlow extends the IDMP framework from static scene mapping to dynamic object tracking and reconstruction.
@@ -132,7 +138,7 @@ source ~/disflow_ws/install/setup.bash
 
 ---
 
-## Running DisFlow
+## Running DisFlow with RealSense Live Camera
 
 ### Terminal 1: Start RGB-D Camera
 
@@ -148,11 +154,16 @@ ros2 launch realsense2_camera rs_pointcloud_launch.py
 ros2 launch idmp_ros realsense.py
 ```
 
+Note: When you run the DisFlow, make sure you have a human or object standing in front of the camera and then rotate slowly.
+
 ### Terminal 3: Visualisation
 
 ```bash
 rviz2
 ```
+then choose the config rviz file under src/ros2_idmp/idmp_ros/config/disflow.rviz
+
+
 
 ---
 
