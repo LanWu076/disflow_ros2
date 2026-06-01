@@ -15,11 +15,25 @@ The core idea is to represent an object using Gaussian Process Distance Field (G
 
 ---
 
+## Notes
+
+This repository contains a ROS2 version of DisFlow.
+
+The original paper was developed using ROS1. Unfortunately, after moving to a new institution, I no longer have access to the original ROS1 machine, so I decided to migrate the project to ROS2 instead of maintaining the old codebase.
+
+At the moment, the ROS2 version has mainly been tested on the **Human Rotation** experiment presented in the paper. Some of the other experiments and utilities from the original ROS1 implementation have not yet been fully ported.
+
+If you are interested in reproducing other results from the paper, need the original ROS1 code, rosbags, calibration files, or experiment configurations, feel free to send me an email and I will do my best to help.
+
+---
+
 ## Demo Video
 
 [DisFlow Demo Video](media/disflow_demo.mp4)
 
 Click the image above to get the access to the demo video.
+
+---
 
 ## Overview
 
@@ -214,12 +228,5 @@ For questions or collaborations, please contact:
 University of Western Australia  
 Email: Lan.Wu@uwa.edu.au
 
-## Notes
 
-This repository contains a ROS2 version of DisFlow.
 
-The original paper was developed using ROS1. Unfortunately, after moving to a new institution, I no longer have access to the original ROS1 machine, so I decided to migrate the project to ROS2 instead of maintaining the old codebase.
-
-At the moment, the ROS2 version has mainly been tested on the **Human Rotation** experiment presented in the paper. Some of the other experiments and utilities from the original ROS1 implementation have not yet been fully ported.
-
-If you are interested in reproducing other results from the paper, need the original ROS1 code, rosbags, calibration files, or experiment configurations, feel free to send me an email and I will do my best to help.
